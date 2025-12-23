@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <h2 className="logo">AgroIntel</h2>
+      <h2 className="logo">Smart Agro</h2>
       <div className="links">
         <Link to="/">Login</Link>
         <Link to="/dashboard">Dashboard</Link>
