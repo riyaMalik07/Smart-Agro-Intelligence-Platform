@@ -1,6 +1,6 @@
 function Dashboard() {
   return (
-    <div>
+    <div style={{ padding: "40px" }}>
       <h1>Dashboard</h1>
       <p>Welcome to Smart Agro Intelligence Platform</p>
     </div>

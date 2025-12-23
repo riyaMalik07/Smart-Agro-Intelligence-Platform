@@ -1,14 +1,8 @@
-import { useNavigate } from "react-router-dom";
-
 function Login() {
-  const navigate = useNavigate();
-
   return (
-    <div>
-      <h1>Login Page</h1>
-      <button onClick={() => navigate("/dashboard")}>
-        Go to Dashboard
-      </button>
+    <div style={{ padding: "40px" }}>
+      <h1>Login</h1>
+      <p>This will be connected to backend later</p>
     </div>
   );
 }
